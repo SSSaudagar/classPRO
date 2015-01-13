@@ -1,0 +1,23 @@
+{
+  "name": "ClassPro",
+  "version": "0.1.0",
+  "description": "my ticket to get 1 million dollars from investors",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "classpro",
+    "student",
+    "database",
+    "blog"
+  ],
+  "author": "Shashank Shetye Saudagar <shashanksaudagar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "hbs": "^2.8.0",
+    "mongoose": "^3.8.21"
+  }
+}
