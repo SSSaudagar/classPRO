@@ -1,21 +1,10 @@
-var users = [
-    {
-        id:1,
-        name:"sobin",
-        username:"sobingt@bb.com",
-        password:"abc"
-    },
-    {
-        id:2,
-        name:"stanley",
-        username:"stan@bb.com",
-        password:"xyz"
-    },
-    {
-        id:3,
-        name:"shashank",
-        username:"shas@leiansis.com",
-        password:"pqr"
-    }
-];
-exports.users = users;
+var mongoose = require('mongoose');
+//var bcrypt = require('bcrypt-node.js');
+//var crypto = require('crypto');
+var userSchema=new mongoose.Schema({
+    id:String,
+    name:String,
+    password:String,
+    username: String
+});
+module.exports= mongoose.model('User',userSchema);
